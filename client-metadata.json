@@ -2,7 +2,7 @@
     "client_id": "https://lander-parren.github.io/atproto-photo-app-client-metadata/client-metadata.json",
     "client_name": "atproto-photo-app",
     "application_type": "native",
-    "redirect_uris": ["http://127.0.0.1:8081/auth"],
+    "redirect_uris": ["http://127.0.0.1:8081/api/auth/proxy"],
     "scope": "atproto transition:generic",
     "grant_types": ["authorization_code", "refresh_token"],
     "response_types": ["code"],
